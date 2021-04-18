@@ -16,3 +16,5 @@ https://www.toptal.com/python/introduction-python-microservices-nameko
 
 # Final audio models:- 
 Use teachable machines
+
+https://github.com/reekithak/English-Proficiency-Tester/tree/master/Old_Files/Model-Notebooks
