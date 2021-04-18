@@ -8,7 +8,7 @@ https://github.com/reekithak/document-similarity
 
 https://github.com/malteos/awesome-document-similarity
 
-
+https://towardsdatascience.com/find-text-similarities-with-your-own-machine-learning-algorithm-7ceda78f9710 (Best One So Far)
 # Audio Microservice ?
 https://docs.microsoft.com/en-us/azure/cognitive-services/translator/tutorial-build-flask-app-translation-synthesis
 
