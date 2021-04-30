@@ -1,11 +1,10 @@
-def record_audio(RECORD_SECONDS):
+def record_audio(RECORD_SECONDS=5):
     import pyaudio
     import wave
     CHUNK = 1024
     FORMAT = pyaudio.paInt16
     CHANNELS = 2
     RATE = 44100
-    RECORD_SECONDS = 5
     WAVE_OUTPUT_FILENAME = "output.wav"
 
     p = pyaudio.PyAudio()
@@ -71,11 +70,11 @@ def record_create_spect():
     import speech_recognition as sr
     import os
     import pylab
-
+    record_audio()
     r = sr.Recognizer()
     hellow=sr.AudioFile('output.wav')
     with hellow as source:
-    audio = r.record(source)
+        audio = r.record(source)
     try:
         s = r.recognize_google(audio)
         print("Text: "+s)
