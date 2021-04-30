@@ -9,6 +9,8 @@ def clean_to_pass(para):   #Module to get the read text from the user and conver
     para = para.replace('\n',' ')
     para = para.replace("%"," Percentage")
     return para
+
+    
 def gpt2_generator():
     import torch
     from transformers import GPT2LMHeadModel, GPT2Tokenizer
