@@ -1,7 +1,17 @@
+
+def clean_to_pass(para):   #Module to get the read text from the user and convert it into sentence for comparison
+    import re
+    import string
+    import nltk
+    stopwords = nltk.corpus.stopwords.words('english')
+    para = "".join([i for i in para if i not in string.punctuation])
+    para = "".join([i.lower() for i in para if i not in string.punctuation])
+    para = para.replace('\n',' ')
+    para = para.replace("%"," Percentage")
+    return para
 def gpt2_generator():
     import torch
     from transformers import GPT2LMHeadModel, GPT2Tokenizer
-    from generate_text_v1 import clean_to_pass
     # initialize tokenizer and model from pretrained GPT2 model
     tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
 
