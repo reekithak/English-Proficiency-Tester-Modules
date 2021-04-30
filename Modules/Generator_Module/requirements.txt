@@ -6,3 +6,6 @@ torch==1.8.1+cu102
 torchvision==0.9.1+cu102 
 torchaudio===0.8.1 
 https://download.pytorch.org/whl/torch_stable.html
+SpeechRecognition
+pipwin
+PyAudio-0.2.11-cp37-cp37m-win_amd64
