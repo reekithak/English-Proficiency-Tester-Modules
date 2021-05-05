@@ -1,0 +1,6 @@
+Sample APP: https://github.com/tensorflow/examples/tree/master/lite/examples/sound_classification/android
+
+
+.kt file: https://github.com/tensorflow/examples/blob/master/lite/examples/sound_classification/android/app/src/main/java/org/tensorflow/lite/examples/soundclassifier/SoundClassifier.kt
+
+

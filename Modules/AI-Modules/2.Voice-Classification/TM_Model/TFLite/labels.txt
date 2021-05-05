@@ -1,0 +1,4 @@
+0 Another_Language
+1 Background Noise
+2 Bad_English
+3 Good_English
