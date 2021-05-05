@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 model_path = r'D:\working repos\English-Proficiency-Tester\Modules\AI-Modules\1.Doc-Text-Sim\5-4-21\data\GoogleNews-vectors-negative300.bin'
-
+# NULL
 class DocSim:
     def __init__(self, w2v_model, stopwords=None):
         self.w2v_model = w2v_model
