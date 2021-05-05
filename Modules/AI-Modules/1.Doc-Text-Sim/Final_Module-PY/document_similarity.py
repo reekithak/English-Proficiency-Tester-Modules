@@ -102,3 +102,7 @@ if((sim_scores[0]['score']>=0.9) && (tf_score>=0.8)):
 else:
     document_similar = False
     sim_score = (sim_scores[0]['score']+tf_score)/2
+
+
+
+return sim_score
